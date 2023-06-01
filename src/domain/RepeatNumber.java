@@ -1,10 +1,3 @@
-# Практична робота "Поглиблене використання масивів"
-
-3. Знайти в матриці розміром N x M число, яке повторюється найбільшу кількість разів.
-
-## Код програми
-* Клас RepeatNumber
-```java
 package domain;
 
 import java.util.Arrays;
@@ -79,27 +72,3 @@ public class RepeatNumber {
         System.out.println("Число "+ mostNum + ", яке повторюється найбільшу кількість разів: " + maxCount);
     }
 }
-```
-* Клас Main
- ```java
- package test;
-
-import domain.RepeatNumber;
-
-
-public class Main {
-
-
-    public static void main(String[] args) {
-
-        RepeatNumber test = new RepeatNumber();
-        test.GenMatAndFindNum(5, 5);
-    }
-}
-```
-----
-## Результат виконання
-
-<img src="https://github.com/ppc-ntu-khpi/35-advarrays-CAH4E33/blob/master/Images/Result0206.png" width="100%"/>
-
-
